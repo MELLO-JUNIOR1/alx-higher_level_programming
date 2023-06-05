@@ -1,1 +1,1 @@
-# alx-higher_level_programming they say ;)
+# python is hard they say ;)
