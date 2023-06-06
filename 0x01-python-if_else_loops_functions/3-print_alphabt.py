@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for abc in range(ord('a'), ord('z')+1):
-    if abc == ord('q') or abc == ord('e'):
+for alpha in range(ord('a'), ord('z')+1):
+    if alpha == ord('q') or alpha == ord('e'):
         continue
-    print("{}".format(chr(abc)), end='')
+    print("{}".format(chr(alpha)), end='')

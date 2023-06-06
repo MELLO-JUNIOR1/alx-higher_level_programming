@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for i in range(0, 100):
+for num in range(0, 100):
     between = ", "
-    if i == 99:
+    if num == 99:
         between = "\n"
-    print("{:02d}".format(i), end=between)
+    print("{:02d}".format(num), end=between)
