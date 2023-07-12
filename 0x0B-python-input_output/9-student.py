@@ -1,14 +1,16 @@
 #!/usr/bin/python3
-""" My class module
-"""
+"""class student"""
+
 
 class Student:
-    """ My class
-    """
+    """set attributes"""
 
-    def __init__(self, name):
-        self.name = name
-        self.number = 0
+    def __init__(self, first_name, last_name, age):
+        """init"""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
 
-    def __str__(self):
-        return "[MyClass] {} - {:d}".format(self.name, self.number)
+    def to_json(self):
+        """return the dict of the class"""
+        return self.__dict__
